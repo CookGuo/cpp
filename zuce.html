@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/zuce.css" />
+		<script src="js/jquery-1.11.1.min.js"></script>
+	</head>
+	<body>
+		<div id="back">
+			<img src="images/zuce.jpg" alt="图片加载失败！" class="topa"/>
+			<div id="bg">
+				<div id="header">
+					<h1>
+						<img src="images/logo.png" alt="" />
+					</h1>
+					<p>滋润生活，由此开始</p>
+				</div>
+				<!--main用于装页面的主要内容，注册登录页面的切换-->		
+				<div id="main">
+					
+					<div id="content">
+						<div class="top">
+							<a class="dl" href="javascript:;">登录</a>
+							<a class="zuce" href="javascript:;">注册</a>
+						</div>
+						<span class="shouji-check"></span>			
+						<input type="text" name="phone" class="phone" placeholder="输入手机号"/>
+						
+						<p class="rules">
+							注册视为同意"<a href="javascript:;">茶泡泡规则</a>"
+						</p>
+						<input type="submit" class="btn" value="立即注册"/>
+						<span class="bta"></span>
+					</div>
+					<div id="footer">
+						<p class="foot">社区账号登录</p>
+						<div class="tubiao">
+							<a href="javascript:;" class="qq"></a>
+							<a href="javascript:;" class="wb"></a>
+						</div>
+					</div>
+					
+				</div>
+				<!--注册页面-->
+				<div id="zuce-main">
+					<div class="top clearfix">
+						<a class="dl" href="javascript:;">登录</a>
+						<a class="zuce" href="javascript:;">注册</a>
+					</div>
+					<span class="check"></span>
+					<p><input type="text" class="name" placeholder="请输入用户名"/></p>
+					<p><input type="password" class="pwd" placeholder="请输入密码"/></p>
+					<p><input type="password" class="Qpwd" placeholder="确认密码"/></p>
+					<p>
+						<input type="text" class="number" placeholder="请输入图形验证码"/>
+						<span>1234</span>
+					</p>
+					<p>
+						<input type="text" class="phonenum" placeholder="请输入短信验证码"/>
+						<span>免费获取验证码</span>
+					</p>
+					<p><input type="submit" class="userbtn" value="完成注册"/></p>
+				</div>
+				<!--登录页面-->
+				<div id="login">
+					<div class="top clearfix">
+						<a class="dl" href="javascript:;">登录</a>
+						<a class="zuce" href="javascript:;">注册</a>
+					</div>
+					<span class="login-check"></span>
+					<p><input type="text" class="uname" placeholder="请输入用户名"/></p>
+					<p><input type="password" class="upwd" placeholder="请输入密码密码"/></p>
+					<p class="clearfix">
+						<a href="javascript:;" class="selflogin"></a>
+						<span>自动登录</span>
+						<a href="javascript:;" class="forget">忘记密码</a>
+					</p>
+					<p><input type="submit" class="loginbtn" value="登录"/></p>
+					<div id="footer">
+						<p class="foot">社区账号登录</p>
+						<div class="tubiao">
+							<a href="javascript:;" class="qq"></a>
+							<a href="javascript:;" class="wb"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
+<script src="js/public.js"></script>
+<script src="js/zuce.js"></script>
