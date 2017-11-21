@@ -1,0 +1,337 @@
+@charset "UTF-8";
+html, body, ol, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, form, legend, input, fieldset, form {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+a, u {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+li, ul, ol {
+  list-style: none; }
+
+img {
+  border: 0; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden; }
+
+.public, #banner .bannercount, #select .selectcount, #more-article .articlec {
+  margin: 0 auto;
+  width: 1200px; }
+
+#banner {
+  min-height: 390px; }
+  #banner .bannercount {
+    min-height: 390px; }
+    #banner .bannercount .bannerc {
+      height: 350px;
+      width: 728px;
+      float: left;
+      overflow: hidden;
+      position: relative; }
+      #banner .bannercount .bannerc .bigimg {
+        height: 350px;
+        width: 3640px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        #banner .bannercount .bannerc .bigimg img {
+          float: left;
+          height: 350px;
+          width: 728px; }
+      #banner .bannercount .bannerc .circle {
+        position: absolute;
+        bottom: 20px;
+        right: 24px; }
+        #banner .bannercount .bannerc .circle li {
+          height: 14px;
+          float: left;
+          width: 14px;
+          border: 1px solid #fff;
+          background: #70877e;
+          border-radius: 50%;
+          margin-left: 12px; }
+        #banner .bannercount .bannerc .circle li:first-child {
+          background: #fff; }
+    #banner .bannercount .rightc {
+      width: 452px;
+      float: left;
+      margin-left: 20px; }
+      #banner .bannercount .rightc .biaoqian {
+        height: 172px; }
+        #banner .bannercount .rightc .biaoqian .title {
+          height: 30px;
+          border-bottom: 1px solid #e2e2e2; }
+          #banner .bannercount .rightc .biaoqian .title h2 {
+            font-size: 18px;
+            line-height: 18px;
+            color: #000;
+            font-weight: 900;
+            float: left;
+            margin-left: 15px; }
+          #banner .bannercount .rightc .biaoqian .title a {
+            display: block;
+            height: 20px;
+            width: 70px;
+            background: #e26c68;
+            font-size: 14px;
+            color: #fff;
+            line-height: 20px;
+            text-align: center;
+            float: right; }
+        #banner .bannercount .rightc .biaoqian .list {
+          margin-top: 30px;
+          padding-left: 5px; }
+          #banner .bannercount .rightc .biaoqian .list .to0 {
+            border: 0; }
+          #banner .bannercount .rightc .biaoqian .list li {
+            margin-bottom: 20px;
+            float: left;
+            padding-right: 30px;
+            border-right: 1px solid #706f6f; }
+            #banner .bannercount .rightc .biaoqian .list li a {
+              font-size: 16px;
+              text-align: center;
+              color: #706f6f;
+              padding-left: 30px; }
+              #banner .bannercount .rightc .biaoqian .list li a:hover {
+                color: #de8a38; }
+      #banner .bannercount .rightc .article {
+        height: 176px; }
+        #banner .bannercount .rightc .article h2 {
+          height: 29px;
+          border-bottom: 1px solid #e2e2e2;
+          font-size: 18px;
+          line-height: 18px;
+          color: #000;
+          font-weight: 900;
+          padding-left: 16px; }
+        #banner .bannercount .rightc .article .count {
+          padding-top: 12px; }
+          #banner .bannercount .rightc .article .count img {
+            height: 130px;
+            width: 150px;
+            display: block;
+            float: left;
+            margin-right: 20px; }
+          #banner .bannercount .rightc .article .count .btcount {
+            float: left;
+            width: 260px; }
+            #banner .bannercount .rightc .article .count .btcount p:first-child {
+              height: 35px;
+              margin-bottom: 33px; }
+              #banner .bannercount .rightc .article .count .btcount p:first-child img {
+                float: left;
+                display: block;
+                height: 35px;
+                width: 35px; }
+              #banner .bannercount .rightc .article .count .btcount p:first-child a {
+                display: block;
+                float: left;
+                margin-left: 20px;
+                text-align: center;
+                color: #de8a38;
+                font-size: 18px;
+                line-height: 35px; }
+            #banner .bannercount .rightc .article .count .btcount p:last-child {
+              color: #7c7b7b;
+              font-size: 14px;
+              line-height: 25px; }
+
+#select {
+  min-height: 376px; }
+  #select .selectcount {
+    min-height: 376px; }
+    #select .selectcount .title {
+      height: 32px;
+      border-bottom: 1px solid #e2e2e2;
+      margin-bottom: 30px; }
+      #select .selectcount .title h2 {
+        color: #373838;
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 16px;
+        float: left; }
+      #select .selectcount .title a {
+        display: block;
+        float: right;
+        font-size: 16px;
+        color: #373838;
+        padding-right: 15px;
+        margin-right: 28px;
+        text-align: center;
+        border-radius: 2px;
+        background: url(../images/jt.png) no-repeat right center; }
+        #select .selectcount .title a:hover {
+          color: #de8a38; }
+    #select .selectcount .tubox {
+      min-height: 314px;
+      padding-top: 10px; }
+      #select .selectcount .tubox .tuboxc {
+        height: 272px;
+        width: 376px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin-right: 35px;
+        margin-top: 20px; }
+        #select .selectcount .tubox .tuboxc img {
+          height: 272px;
+          width: 376px; }
+        #select .selectcount .tubox .tuboxc span {
+          display: block;
+          height: 32px;
+          width: 376px;
+          position: absolute;
+          bottom: -40px;
+          left: 0;
+          font-size: 30px;
+          line-height: 32px;
+          color: #fff;
+          margin-left: 20px;
+          padding-left: 40px;
+          background: url(../img/dian.png) no-repeat left center; }
+      #select .selectcount .tubox .to0 {
+        margin-right: 0; }
+
+#more-article {
+  min-height: 1212px;
+  margin-top: 20px; }
+  #more-article .articlec {
+    min-height: 1212px;
+    position: relative; }
+    #more-article .articlec .title {
+      height: 32px;
+      border-bottom: 1px solid #e2e2e2;
+      margin-bottom: 30px; }
+      #more-article .articlec .title h2 {
+        color: #373838;
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 16px;
+        float: left; }
+      #more-article .articlec .title a {
+        display: block;
+        float: right;
+        font-size: 16px;
+        color: #373838;
+        padding-right: 15px;
+        margin-right: 28px;
+        text-align: center;
+        border-radius: 2px;
+        background: url(../images/jt.png) no-repeat right center; }
+        #more-article .articlec .title a:hover {
+          color: #de8a38; }
+    #more-article .articlec .essay {
+      min-height: 926px; }
+      #more-article .articlec .essay .essayc {
+        min-height: 448px;
+        width: 584px;
+        margin-right: 30px;
+        float: left;
+        margin-bottom: 30px;
+        overflow: hidden; }
+        #more-article .articlec .essay .essayc .tuarticle {
+          display: block;
+          overflow: hidden;
+          width: 584px;
+          height: 304px; }
+          #more-article .articlec .essay .essayc .tuarticle img {
+            width: 584px;
+            height: 304px; }
+        #more-article .articlec .essay .essayc .miaoshu {
+          margin-left: 15px;
+          font-size: 18px;
+          color: #000;
+          font-weight: 900;
+          margin-top: 12px;
+          margin-bottom: 20px;
+          line-height: 18px; }
+        #more-article .articlec .essay .essayc .begin {
+          height: 80px;
+          width: 556px;
+          margin-left: 15px; }
+          #more-article .articlec .essay .essayc .begin a {
+            font-size: 14px;
+            color: #706f6f;
+            line-height: 26px; }
+            #more-article .articlec .essay .essayc .begin a:hover {
+              color: #5faf83; }
+        #more-article .articlec .essay .essayc .bot {
+          margin-left: 15px; }
+          #more-article .articlec .essay .essayc .bot .bot-left {
+            float: left; }
+            #more-article .articlec .essay .essayc .bot .bot-left span {
+              font-size: 14px;
+              font-weight: 900;
+              line-height: 14px; }
+            #more-article .articlec .essay .essayc .bot .bot-left .biaoqian {
+              margin-right: 10px; }
+            #more-article .articlec .essay .essayc .bot .bot-left span:first-child {
+              color: #706f6f; }
+            #more-article .articlec .essay .essayc .bot .bot-left span:last-child {
+              color: #5faf83; }
+          #more-article .articlec .essay .essayc .bot .bot-right {
+            float: right;
+            font-size: 18px;
+            color: #706f6f; }
+            #more-article .articlec .essay .essayc .bot .bot-right span {
+              display: block;
+              float: left;
+              margin-right: 10px; }
+            #more-article .articlec .essay .essayc .bot .bot-right a {
+              margin-top: 3px;
+              margin-right: 15px; }
+            #more-article .articlec .essay .essayc .bot .bot-right a:nth-of-type(1) {
+              display: block;
+              height: 18px;
+              width: 20px;
+              background: url(../images/xx.png) no-repeat center;
+              float: left; }
+            #more-article .articlec .essay .essayc .bot .bot-right a:nth-of-type(2) {
+              display: block;
+              height: 18px;
+              width: 20px;
+              float: left;
+              background: url(../img/bot1.png) no-repeat center; }
+            #more-article .articlec .essay .essayc .bot .bot-right a:nth-of-type(3) {
+              float: left;
+              display: block;
+              height: 18px;
+              width: 22px;
+              background: url(../img/bot2.png) no-repeat center; }
+      #more-article .articlec .essay .to0 {
+        margin-right: 0; }
+    #more-article .articlec .login-more {
+      height: 50px;
+      width: 364px;
+      background: #5faf83;
+      border-radius: 5px;
+      text-align: center;
+      margin-left: 420px;
+      margin-top: 50px;
+      margin-bottom: 100px; }
+      #more-article .articlec .login-more a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        font-size: 18px;
+        color: #fff;
+        line-height: 50px; }
+
+/*# sourceMappingURL=message.css.map */

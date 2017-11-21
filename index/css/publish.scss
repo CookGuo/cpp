@@ -1,0 +1,258 @@
+@charset "UTF-8";
+html,body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,form,legend,input,fieldset,form
+{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100} 
+a,u{text-decoration:none} 
+i,em{font-style:normal}
+b,strong{font-weight:100}
+li,ul,ol{list-style:none}
+img{border:0}
+.clearfix:after{content: ".";clear:both;height: 0;display: block;overflow:hidden;
+        visibility: hidden;}
+.public{
+    margin:0 auto;
+    width:1200px;
+}
+
+#play{
+    min-height:140px;
+    .play-count{
+        @extend .public;
+        min-height:140px;
+        border-bottom:1px solid #e2e2e2;
+        margin-bottom:30px;
+        h2{
+            font-size:30px;
+            color:#000;
+            font-weight:900;
+            line-height:30px;
+            padding-left:16px;
+            margin-bottom:30px;
+        }
+        p{
+            height:44px;
+            padding-left:16px;
+            img{
+                float:left;
+            }
+            span:nth-of-type(1){
+                float:left;
+                font-size:16px;
+                text-align:center;
+                line-height:44px;
+                color:#706f6f;
+                margin-left:20px;
+            }
+            a:nth-of-type(1){
+                float:left;
+                font-size:16px;
+                text-align:center;
+                line-height:44px;
+                color:#373838;
+                margin-left:20px;
+            }
+            span:nth-of-type(2){
+                float:left;
+                text-align:center;
+                line-height:44px;
+                font-size:16px;
+                color:#706f6f;
+                margin-left:20px;
+            }
+            span:nth-of-type(3){
+                float:left;
+                display:block;
+                width:18px;
+                height:44px;
+                background:url(../img/xiaoren.jpg) no-repeat center;
+                margin-left:20px;
+            }
+            span:nth-of-type(4){
+                float:left;
+                text-align:center;
+                font-size:16px;
+                line-height:44px;
+                color:#706f6f;
+                margin-left:10px;
+            }
+            span:nth-of-type(5){
+                float:left;
+                display:block;
+                width:20px;
+                height:44px;
+                background:url(../img/xx.png) no-repeat center;
+                margin-left:10px;
+            }
+            span:nth-of-type(6){
+                float:left;
+                text-align:center;
+                font-size:16px;
+                line-height:44px;
+                color:#706f6f;
+                margin-left:10px;
+            }
+            span:nth-of-type(7){
+                float:left;
+                display:block;
+                width:22px;
+                height:44px;
+                background:url(../img/bot2.png) no-repeat center;
+                margin-left:10px;
+            }
+            span:nth-of-type(8){
+                float:left;
+                text-align:center;
+                font-size:16px;
+                line-height:44px;
+                color:#706f6f;
+                margin-left:10px;
+            }
+             a:last-of-type{
+                display:block;
+                height:28px;
+                width:86px;
+                float:left;
+                font-size:16px;
+                text-align:center;
+                line-height:28px;
+                color:#fff;
+                background:#5faf83;
+                border-radius:5px;
+                margin-left:20px;
+                margin-top:6px;
+            }
+        }
+    }
+}
+
+#content{
+   min-height:696px;
+   .contentc{
+       @extend .public;
+       min-height:668px;
+       .title{
+           font-size:16px;
+           color:#373838;
+           line-height:16px;
+           padding-left:20px;
+       }
+       img{
+           height:510px;
+           width:926px;
+           margin-top:54px;
+           margin-bottom:46px;
+           margin-left:136px;
+       }
+       p{
+           height:42px;
+           a{
+               display:block;
+               width:138px;
+               height:40px;
+               border:1px solid #5faf83;
+               float:left;
+               font-size:18px;
+               text-align:center;
+               line-height:40px;
+           }
+           a:first-child{
+               margin-left:736px;
+               border-radius:5px 0 0 5px;
+               border-right:0;
+               background:#5faf83;
+               color:#fff;
+           }
+           a:last-child{
+               border-left:0;
+               border-radius:0 5px 5px 0;
+               color:#878686;
+           }
+       }
+   }
+}
+
+#user{
+    min-height:200px;
+    .userimg{
+        @extend .public;
+        height:150px;
+        padding-top:60px;
+        position:relative;
+        .imgmask{
+            position:relative;
+            overflow:hidden;
+            width:1100px;
+            height:78px;
+        }
+        ul{
+            width:1200px;
+            height:78px;
+            top:0;
+            left:-120px;
+            position:absolute;
+        }
+        li{
+            float:left;
+            margin-left:40px;
+            height:78px;
+            width:78px;
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+        a{
+            display:block;
+            position:absolute;
+            top:88px;
+            right:88px;
+            height:22px;
+            width:12px;
+            background:url(../images/jt1.jpg) no-repeat left center;
+        }
+    }
+}
+
+#comment{
+    min-height:390px;
+    .commentc{
+        @extend .public;
+        min-height:390px;
+        .title{
+            height:38px;
+            border-bottom:1px solid #e2e2e2;
+            h2{
+                font-size:26px;
+                color:#000;
+                font-weight:900;
+                line-height:26px;
+                float:left;
+                padding-left:16px;
+            }
+            p{
+                font-size:18px;
+                color:#373838;
+                line-height:38px;
+                float:right;
+            }
+        }
+        .comment-box{
+            border:1px solid #000000;
+            height:154px;
+            width:1198px;
+            contenteditable:true;
+        }
+        .fabiao{
+            display:block;
+            height:42px;
+            width:190px;
+            color:#fff;
+            border-radius:5px;
+            font-size:26px;
+            text-align:center;
+            background:#5faf83;
+            margin-left:952px;
+            margin-top:20px;
+        }
+    }
+}

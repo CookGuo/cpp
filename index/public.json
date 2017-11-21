@@ -1,0 +1,30 @@
+{
+	"laoguo":{
+		"username":"laoguo",
+		"img":"r1.png",
+		"message":"93"
+	},
+	"haiyan":{
+		"username":"haiyan",
+		"img":"r2.png",
+		"message":"96"
+	},
+	"xiaonan":{
+		"username":"xiaonan",
+		"img":"r3.png",
+		"message":"49"
+	},
+	"libai":{
+		"username":"libai",
+		"img":"r4.png",
+		"message":"9"
+	},
+	"xiaoming":{
+		"username":"xiaoming",
+		"img":"r5.png",
+		"message":"74"
+	}
+}
+
+
+
